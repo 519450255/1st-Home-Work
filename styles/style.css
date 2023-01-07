@@ -1,7 +1,7 @@
 /* *******Common css******* */
 *{
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
 }
 
 .btn_primary{
@@ -12,8 +12,10 @@
     line-height: 23px;
     border: 0;
     padding: 3px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     background: #eeeceb;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 /* *********Banner section start********** */
@@ -21,16 +23,175 @@
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 808px;
     background-position: center;
 }
 
-.banner_section .banner_item{
+.banner_item{
+    width: 35%;
+    float: right;
+    text-align: right;
+    margin-right: 200px;
+    padding: 200px 0;
+}
+.banner_title{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.banner_description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* *********Banner section end********** */
+
+
+/* *********failure section start********** */
+
+.failure_section{
+    display: flex;
+    max-width: 1070px;
+    /* background-color: bisque; */
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 225px;
+    align-items: center;
+
+}
+.failure_title{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 47px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+.failure_descrimination{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color:#444343;
+}
+
+.failure_item{
+    margin-left: 70px;
+
+}
+.failure_data{
+    display: flex;
+    margin-top: 10PX;
+}
+.failure_data img{
+    width: 20px;
+    height: 20px;
+}
+.failure_data p{
+    font-size: 16PX;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+    color: #444343;
+}
+
+/* *********failure section end********** */
+
+/* ***************plan section start************ */
+
+.my_plan{
+    max-width: 1070px;
+    margin: auto;
+}
+
+.plan_title{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 47px;
+    margin-bottom: 20px;
+    color: #151414;
+    text-align: center; 
+}
+
+.plan_content{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.plan_item{
+    text-align: center;
+}
+.plan_item img{
+    width: 92px;
+    height: 92px;
+    margin-bottom:20px;
+}
+
+.plan_item h3{
+    font-size:30px;
+    font-weight:800;
+    line-height:35px;
+    color:#151414;
+    padding-bottom: 15px;
+}
+.plan_item p{
+    font-size:25px;
+    font-weight:500;
+    line-height:29px;
+    color:#737272;
+}
+/* ***************plan section end************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .banner_section .banner_item{
     width: 25%;
     height: 700px;
     float: right;
     text-align: right;
-    padding: 200px 0;
+    padding: 100px 0;
     margin-right: 230px;
 }
 
@@ -48,7 +209,7 @@
     line-height: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
+} */
 
 
 /* *********Banner section end********** */
@@ -57,7 +218,7 @@
 
 /* *********failure_section start******** */
 
-.failure_section{
+/* .failure_section{
     display: flex;
     margin-top: 100px;
 }
@@ -73,7 +234,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-}
+} */
 
 
 
